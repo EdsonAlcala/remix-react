@@ -62,7 +62,7 @@ jobs:
       - *restore_cache
       - run:
           name: Build
-          command: yarn compile
+          command: yarn build
 
   publish: 
     <<: *defaults
@@ -71,7 +71,7 @@ jobs:
       - *restore_cache
       - run: 
           name: Compile all
-          command: yarn compile
+          command: yarn build
       - run: 
           name: Set NPM token
           command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
