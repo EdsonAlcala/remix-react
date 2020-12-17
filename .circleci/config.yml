@@ -96,6 +96,7 @@ workflows:
       - publish:
           requires:
             - build
+          context: Packages
           filters:
             branches:
               only: main
