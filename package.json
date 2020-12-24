@@ -1,6 +1,6 @@
 {
   "name": "remix-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remix React SDK to create Remix Plugins",
   "main": "dist/remix-react.js",
   "types": "dist/index.d.ts",
